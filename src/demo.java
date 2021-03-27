@@ -47,5 +47,5 @@ public class demo {
     // git add.
 
     //4. lưu trữ vào local repo
-    // git commit -m "tên mesage"
+    // git commit -m "tên message"
 }
