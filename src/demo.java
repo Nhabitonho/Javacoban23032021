@@ -64,16 +64,36 @@ public class demo {
 //        }
 //        System.out.println("Next");
 //        Lỗi Runtime
-        int thang= 5;
-        switch (thang){
-            case 1 : System.out.println("Quí 1");
-                break;
-            case 2 : System.out.println("Quí 2");
-                break;
-            case 3 : System.out.println("Quí 3");
-                break;
-            default: System.out.println("Không nằm trong quí");
+//        int thang= 5;
+//        switch (thang){
+//            case 1 : System.out.println("Quí 1");
+//                break;
+//            case 2 : System.out.println("Quí 2");
+//                break;
+//            case 3 : System.out.println("Quí 3");
+//                break;
+//            default: System.out.println("Không nằm trong quí");
+//        }
+//        System.out.println("Thoát khỏi switch");
+//        6: Vòng lặp
+//        array : Mảng
+//        Cách 1 :
+//        int [] arrNums = new int[10];
+//        Cách 2 :
+//        int [] arrNums = {1,2,3,4,5,6,7};
+//
+//        arrNums[0] = 1;
+//        System.out.println(arrNums[0]);
+//        System.out.println(arrNums.length);
+        int[] arrNums = {1,2,3,4,5,6,7,8,9,10};
+        for (int i = 0; i < arrNums.length; i++) {
+            if (arrNums[i]%2==0) {
+                if (arrNums[i]>5 && arrNums[i]<8){
+                    continue;
+                }
+                System.out.println(arrNums[i]);
+            }
         }
-        System.out.println("Thoát khỏi switch");
+
     }
 }
